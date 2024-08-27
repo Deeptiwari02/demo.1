@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>This is the HTML forms tutorial</h2>
+    <form action="backend.php">
+    <label for="name">Name</label>
+    <!-- agar hum php backend me use kar rhe to hum ye  data php me submit kar rhe hai -->
+    <div>
+        <input type="text" name="myName" id="name">
+        <!-- name="myName isliye liya kyoki hum backend ke correspodance valaue le sake" -->
+    </div>
+    <br>
+    <div>
+        Role:<input type="text" name="role">
+    </div>
+    <br>
+    <div>
+        Gmail:<input type="text" name="Gmail">
+    </div>
+    <br>
+    <div>
+        Date of birth<input type="date" name="DOB">
+    </div>
+    <br>
+    <div>
+        Age<input type="number" name="Age">
+    </div>
+    <br>
+    <div>
+        Are You Eligible<input type="checkbox" name="Eligibility">
+    </div>
+    <br>
+    <div>
+        Gender: Male<input type="button" Name="Gender"> Female <input type="button" Name="Gender"> Other <input
+            type="button" Name="Gender">
+    </div>
+
+    <br>
+    <div>
+        Write About Yourself <br><textarea name="mytext" cols="30" rows="10"></textarea>
+    </div>
+
+    <br>
+    <div>
+        <label for="category">Category</label>
+        <select name="mycategory" id="category">
+            <option value="OPEN" selected>OPEN</option>
+            <option value="SC">SC</option>
+            <option value="ST">ST</option>
+            <option value="PWD">PWD</option>
+        </select>
+
+    </div>
+    <br>
+
+    <div>
+        <input type="submit" value="Submit Now">
+        <input type="reset " value="Reset Now">
+    </div>
+
+  </form>
+</body>
+
+</html>
